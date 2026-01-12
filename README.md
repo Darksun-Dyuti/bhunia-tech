@@ -4,7 +4,6 @@
 ![Vite](https://img.shields.io/badge/Vite-fast-purple)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-utility--first-blue)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 **Bhunia TechZone** is a modern, responsive **e-commerce web application** focused on computer hardware and gaming accessories.  
 The project demonstrates **real-world frontend architecture**, reusable components, protected routes, and modern UI/UX practices using the latest React ecosystem.
