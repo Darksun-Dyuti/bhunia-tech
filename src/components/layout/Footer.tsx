@@ -23,19 +23,47 @@ const Footer = () => {
               Quality products, expert support, and unbeatable prices.
             </p>
             <div className="flex gap-4">
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Facebook className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Twitter className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Instagram className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Youtube className="h-5 w-5" />
-              </Button>
-            </div>
+              <a
+              href="https://www.facebook.com/profile.php?id=100020252274791&ref=_ig_profile_ac"
+              target="_blank"
+              rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="hover:text-primary">
+      <Facebook className="h-5 w-5" />
+    </Button>
+  </a>
+
+  <a
+    href="https://x.com/darksun_dyuti"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="hover:text-primary">
+      <Twitter className="h-5 w-5" />
+    </Button>
+  </a>
+
+  <a
+    href="https://www.instagram.com/darksun_dyuti/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="hover:text-primary">
+      <Instagram className="h-5 w-5" />
+    </Button>
+  </a>
+
+  <a
+    href="https://www.youtube.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="hover:text-primary">
+      <Youtube className="h-5 w-5" />
+    </Button>
+  </a>
+</div>
+
           </div>
 
           {/* Quick Links */}
