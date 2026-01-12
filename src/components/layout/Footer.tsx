@@ -159,7 +159,18 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="mt-12 border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2024 TechZone. All rights reserved.</p>
+          <p>
+            © 2026 BhuniaTech. All rights reserved. ·{" "}
+            <a
+            href="https://github.com/Darksun-Dyuti/bhunia-tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary underline"
+  >
+    GitHub Repository
+  </a>
+</p>
+
           <div className="flex gap-4">
             <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>
