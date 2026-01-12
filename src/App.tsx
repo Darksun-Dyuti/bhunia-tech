@@ -16,6 +16,7 @@ import Returns from "./pages/Returns";
 import TrackOrder from "./pages/TrackOrder";
 import Auth from "./pages/Auth";
 import Admin from "./pages/Admin";
+import AdminLogin from "./pages/AdminLogin";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="/returns" element={<Returns />} />
             <Route path="/track-order" element={<TrackOrder />} />
             <Route path="/auth" element={<Auth />} />
+            <Route path="/admin-login" element={<AdminLogin />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
