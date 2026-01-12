@@ -163,14 +163,10 @@ const Footer = () => {
             © 2026 BhuniaTech. All rights reserved. ·{" "}
             <a
             href="https://github.com/Darksun-Dyuti/bhunia-tech"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-primary underline"
   >
     GitHub Repository
   </a>
 </p>
-
           <div className="flex gap-4">
             <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>
