@@ -1,4 +1,5 @@
 import { Package, Users, DollarSign, ShoppingCart, Plus } from 'lucide-react';
+import { Navigate } from "react-router-dom";
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
@@ -9,6 +10,12 @@ import { products } from '@/lib/products';
 import { toast } from '@/hooks/use-toast';
 
 const Admin = () => {
+    const isAdmin = localStorage.getItem("isAdmin");
+
+  if (!isAdmin) {
+    return <Navigate to="/admin-login" />;
+  }
+
   const stats = [
     { title: 'Total Products', value: products.length, icon: Package, color: 'text-primary' },
     { title: 'Total Orders', value: '142', icon: ShoppingCart, color: 'text-success' },
