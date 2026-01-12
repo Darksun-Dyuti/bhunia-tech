@@ -88,7 +88,7 @@ const Header = () => {
               <User className="h-5 w-5" />
             </Button>
           </Link>
-          <Link to="/admin" className="hidden sm:block">
+          <Link to="/admin-login" className="hidden sm:block">
             <Button variant="outline" size="sm">
               Admin
             </Button>
@@ -123,9 +123,14 @@ const Header = () => {
               <Link to="/auth" className="px-3 py-2 rounded-md hover:bg-secondary transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Login / Register
               </Link>
-              <Link to="/admin" className="px-3 py-2 rounded-md hover:bg-secondary transition-colors" onClick={() => setIsMenuOpen(false)}>
-                Admin Panel
-              </Link>
+              <Link
+              to="/admin-login"
+              className="px-3 py-2 rounded-md hover:bg-secondary transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+>
+  Admin Panel
+  </Link>
+
             </nav>
           </div>
         </div>}
